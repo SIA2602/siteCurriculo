@@ -3873,7 +3873,7 @@ input[type=button].btn-block {
   height: 8%;
   display: flex;
   flex-wrap: wrap;
-  padding-left: 100;
+  padding-left: 0;
   margin-bottom: 0;
   list-style: none;
 }
@@ -3886,7 +3886,7 @@ input[type=button].btn-block {
 
 .nav li{
   margin-top: 5px;
-  padding-right:35px;
+  padding-right:55px;
  }
 
 .nav-link:hover, .nav-link:focus {
@@ -10237,5 +10237,9 @@ section.resume-section .resume-section-content {
 
   100%{
     background-position: 0% 50%;
-  }
-}
+  }}
+
+  #sticky-sidebar {
+    position:fixed;
+    max-width: 20%;
+    } 
