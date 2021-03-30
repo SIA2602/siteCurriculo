@@ -42,13 +42,13 @@
 }
 
 h1{
-    font-family: 'Saira Extra Condensed';
+  font-family: 'Rajdhani';
     font-style: normal;
     font-weight: 500;
 }
 
 h2{
-    font-family: 'Saira Extra Condensed';
+  font-family: 'Rajdhani';
     font-style: normal;
     font-size: 30px;
 }
@@ -57,6 +57,12 @@ h3{
   font-family: 'Sacramento';
   font-style: normal;
   font-size: 30px;
+}
+
+h4{
+  font-family: 'Rajdhani';
+  font-style: normal;
+  font-size: 20px; 
 }
 
 .sidebar-container {
@@ -92,7 +98,7 @@ h3{
   position: relative;
   display: inline-block;
   width: 100%;
-  line-height: 60px;
+  line-height: 50px;
 }
 
 .sidebar-navigation li a {
@@ -120,28 +126,53 @@ h3{
   top: 0;
   -webkit-transition: width 0.2s ease-in;
   transition: width 0.2s ease-in;
-  width: 5px;
+  width: 6px;
   z-index: -1;
 }
 
 .item01 li::before{
-  background-color: #a92525;
+  background-color: #873e95;  
+}
+
+.item01{
+  background: #f4bf00;
+  z-index: 99;
 }
 
 .item02 li::before{
-  background-color: #a925a2;
+  background-color: #3c70b4;
+}
+
+.item02{
+  background: #f7941d;
+  z-index: 99;
 }
 
 .item03 li::before{
-  background-color: #4aa925;
+  background-color: #b90162;
+}
+
+.item03{
+  background: #f26522;
+  z-index: 99;
 }
 
 .item04 li::before{
-  background-color: #a99c25;
+  background-color: #05ac80;
+}
+
+.item04{
+  background: #ed1c24;
+  z-index: 99;
 }
 
 .item05 li::before{
-  background-color: #25a5a9;
+  background-color: #87c05e;
+}
+
+.item05{
+  background: #e10337;
+  z-index: 99;
 }
 
 .sidebar-navigation li:hover::before {
@@ -164,8 +195,55 @@ h3{
 }
 
 .containerPg01{
-  background-color: aquamarine;
+  background-color: rgb(255, 255, 255);
   padding-left: 370px;
   width: 100%;
   height: 100vh;    
+}
+
+.social-icons .social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 3.0rem;
+  width: 3.0rem;
+  background-color: #495057;
+  color: #ffff;
+  border-radius: 100%;
+  font-size: 1.5rem;
+  margin-right: 1.0rem;
+}
+.social-icons .social-icon:last-child {
+  margin-left: auto;
+  margin-right: auto;
+}
+.social-icons .social-icon:hover {  
+  background: linear-gradient(30deg,#f4bf00, #f7941d, #f26522, #ed1c24, #e10337);
+  background-size: 400% 400%;
+  animation: colors 2s ease-in infinite;
+}
+
+@keyframes colors{
+  0%{
+    background-position: 0% 50%;
+  }
+
+  50%{
+    background-position: 100% 50%;
+  }
+
+  100%{
+    background-position: 0% 50%;
+  }
+}
+
+
+.dev-icons {
+  font-size: 3rem;
+}
+
+.sidebar-rodape {
+  padding: 10px 15px 10px 65px;
+  font-size: 35px;
+  background-color:#2d3038; 
 }
