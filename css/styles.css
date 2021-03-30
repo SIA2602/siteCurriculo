@@ -112,8 +112,7 @@ h3{
   outline: none;
 }
 
-.sidebar-navigation li::before {
-  background-color: #2574A9;
+.sidebar-navigation li::before {  
   position: absolute;
   content: '';
   height: 100%;
@@ -123,6 +122,26 @@ h3{
   transition: width 0.2s ease-in;
   width: 5px;
   z-index: -1;
+}
+
+.item01 li::before{
+  background-color: #a92525;
+}
+
+.item02 li::before{
+  background-color: #a925a2;
+}
+
+.item03 li::before{
+  background-color: #4aa925;
+}
+
+.item04 li::before{
+  background-color: #a99c25;
+}
+
+.item05 li::before{
+  background-color: #25a5a9;
 }
 
 .sidebar-navigation li:hover::before {
