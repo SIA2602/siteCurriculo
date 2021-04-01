@@ -247,3 +247,15 @@ h4{
   font-size: 35px;
   background-color:#2d3038; 
 }
+
+.fundoCirculo {
+  width: 5.2em;
+  height: 5.2em;
+  background-color: #495057;
+  border-radius: 100%;
+  align-items: center;
+  padding: 6px 0px 0px 7.3px;  
+}
+
+#wrap { width: 1200px; height: 720px; padding: 0;}
+#frame { width: 1200px; height: 720px; -webkit-transform: scale(0.6);}
