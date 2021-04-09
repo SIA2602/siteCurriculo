@@ -122,12 +122,18 @@ h4{
 }
 
 @media (max-width: 770px) {
+
+  body{
+    background-color: #1a1a1a;
+  }
+
   .screenDesktop{
     visibility: hidden;    
   }
 
   .accordion-button{
     color: white;
+    margin-top: -1px;
   }
 
   .screenMobile{
