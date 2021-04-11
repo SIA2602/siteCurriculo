@@ -127,6 +127,31 @@ h4{
     margin-top: -1px;
   }
 
+  .accordion-button:hover{
+    color: white;    
+    margin-top: -1px;
+  }  
+
+  .accordion-button-home:hover{
+    background: #f4bf00 !important;
+  }  
+
+  .accordion-button-about:hover{
+    background: #f7941d !important;
+  } 
+
+  .accordion-button-skills:hover{
+    background: #f26522 !important;
+  } 
+
+  .accordion-button-education:hover{
+    background: #ed1c24 !important;
+  } 
+
+  .accordion-button-portifolio:hover{
+    background: #e10337 !important;
+  } 
+
   .screenMobile{
     visibility: visible;        
   }    
@@ -370,52 +395,52 @@ h4{
     top: 0;
     -webkit-transition: width 0.2s ease-in;
     transition: width 0.2s ease-in;
-    width: 6px;
+    width: 10px;
     z-index: -1;
   }
   
   .item01 li::before{
-    background-color: #873e95;  
+    background-color: #f4bf00;  
   }
   
   .item01{
-    background: #f4bf00;
+    background: #f4ca6f;
     z-index: 99;
   }
   
   .item02 li::before{
-    background-color: #3c70b4;
+    background-color: #f7941d;
   }
   
   .item02{
-    background: #f7941d;
+    background: #f7ac75;
     z-index: 99;
   }
   
   .item03 li::before{
-    background-color: #b90162;
+    background-color: #f26522;
   }
   
   .item03{
-    background: #f26522;
+    background: #f28d74;
     z-index: 99;
   }
   
   .item04 li::before{
-    background-color: #05ac80;
+    background-color: #ed1c24;
   }
   
   .item04{
-    background: #ed1c24;
+    background: #ed7071;
     z-index: 99;
   }
   
   .item05 li::before{
-    background-color: #87c05e;
+    background-color: #e10337;
   }
   
   .item05{
-    background: #e10337;
+    background: #e16770;
     z-index: 99;
   }
   
