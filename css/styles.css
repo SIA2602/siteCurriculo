@@ -126,6 +126,11 @@ h4{
     visibility: hidden;    
   }
 
+  .oculta{
+    display: none;
+    visibility: hidden;
+  }
+
   .accordion-button{
     color: white;
     margin-top: -1px;
