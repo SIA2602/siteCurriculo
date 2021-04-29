@@ -324,6 +324,11 @@ h4{
     visibility: hidden;
   }
 
+  .ocultMobile{
+    display: none;
+    visibility: hidden;
+  }
+
   .containerPg01{
     background-color: rgb(255, 255, 255);
     padding-left: 380px;  
